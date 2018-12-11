@@ -10,6 +10,7 @@ def read_input_file(filename: str) -> List[str]:
     return lines
 
 
+# Code for part 1
 def fabric1(filename: str):
     raw_claims = read_input_file(filename)
     claimed_points = defaultdict(int)
@@ -30,6 +31,7 @@ def fabric1(filename: str):
     print(total_overlapped_point)
 
 
+# Code for part 2
 def fabric2(filename: str):
     raw_claims = read_input_file(filename)
     claimed_points = defaultdict(int)
